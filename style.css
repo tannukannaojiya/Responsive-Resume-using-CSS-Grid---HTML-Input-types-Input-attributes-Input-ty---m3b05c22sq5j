@@ -142,8 +142,9 @@ width:85%;
 .detail-right-section{
     font-size: 1rem;
 }
-@media screen and (max-width: 673px) {
-    .main-content {
+
+@media screen and (max-width: 673px){
+    .main-content{
         grid-template-columns: repeat(1, 1fr);
     }
 }
