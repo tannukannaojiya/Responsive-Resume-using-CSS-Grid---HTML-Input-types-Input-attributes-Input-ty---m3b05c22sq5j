@@ -15,11 +15,13 @@
 
 }
 .left-section{
-    background-color: #353837;
-
+    grid-column: span 1;
+    background-color: #242531;
 }
+
 .right-section{
-    background-color: #f5eeee;
+    grid-column: span 1 / span 2;
+    background-color: #f7f7f7;
 }
 .left-content{
     padding:1rem;
