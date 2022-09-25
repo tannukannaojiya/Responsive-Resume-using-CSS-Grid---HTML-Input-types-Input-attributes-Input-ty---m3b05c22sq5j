@@ -7,3 +7,141 @@
 }
 
 /* Write CSS code below */
+
+.main-content{
+    height:1000px;
+    display:grid;
+    grid-template-columns: 300px 700px;
+
+}
+.left-section{
+    background-color: #353837;
+
+}
+.right-section{
+    background-color: #f5eeee;
+}
+.left-content{
+    padding:1rem;
+}
+.Profile-Pictuer{
+    width: 60%;
+    border: 5px solid #fff;
+    border-radius: 30%;
+    display:block;
+    margin:auto;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight:700;
+    color:#F5F5F5;
+    text-align: center;
+    padding:0.8rem;
+    letter-spacing: 0.02px;
+     text-transform: uppercase;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+    text-transform: uppercase;
+    color: #afc3c0;
+}
+.description{
+    font-size: 0.75rem;
+    text-align:center;
+    padding:1rem;
+    color:#F5F5F5;
+}
+.contact-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    cursor:pointer;
+}
+.contact-details{
+    color: #F5F5F5;
+    margin-top: 0.5rem;
+}
+
+.contact-label{
+    font-size:0.8rem;
+letter-spacing:0.8px;
+
+}
+.icon{
+    margin:0 0.5rem;
+
+}
+.maile,
+.address,
+.teliphone{
+    display:flax;
+    margin-bottom:0.3rem;
+
+}
+.skills{
+    font-size:0.75rem;
+    text-align:center;
+    padding:1rem 0.5rem;
+    text-transform:uppercase;
+    
+}
+.skill-name{
+    font-size:0.65rem;
+    padding-bottom:0.5rem;
+    text-align: left;
+    text-transform: uppercase;
+}
+.progress-bar{
+    height: 4px;
+    border:1px solid white;
+    background-color: #F5F5F5;
+    width: 55%;
+}
+.progress-css{
+    width:75%;
+}
+.progress-js{
+width:85%;
+}
+.progress-re{
+    width:95%;
+}
+.skill{
+    margin-bottom: 1rem;
+}
+.right-main-content{
+    padding:2rem 3rem;
+}
+.right-title{
+   
+    font-size:1.2rem;
+    font-weight: 700;
+    padding: 0.5px;
+    letter-spacing: 1px;
+    text-transform:uppercase;
+    letter-spacing: 1.3;
+    
+}
+.education-detail{
+    display:flex;
+}
+.about-me-section{
+    margin-bottom:2rem;
+}
+.education-detail{
+    margin:1rem 0;
+}
+.detail-left-section{
+    margin-right: 4rem;
+}
+.detail-right-section{
+    font-size: 1rem;
+}
+@media screen and (max-width: 673px) {
+    .main-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
