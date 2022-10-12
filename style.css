@@ -9,20 +9,17 @@
 /* Write CSS code below */
 
 .main-content{
-    min-height: 1000px;
-    width: 90%;
-    margin: 20px auto;
-    display: grid;
+    height:1000px;
+    display:grid;
     grid-template-columns: 300px 700px;
+
 }
 .left-section{
-    grid-column: span 1;
-    background-color: #242531;
-}
+    background-color: #353837;
 
+}
 .right-section{
-    grid-column: span 1 / span 2;
-    background-color: #f7f7f7;
+    background-color: #f5eeee;
 }
 .left-content{
     padding:1rem;
@@ -138,14 +135,15 @@ width:85%;
     margin:1rem 0;
 }
 .detail-left-section{
+    font-size: 1rem;
     margin-right: 4rem;
 }
 .detail-right-section{
     font-size: 1rem;
+    margin-right: 4rem;
 }
-
-@media screen and (max-width: 673px){
-    .main-content{
+@media screen and (max-width: 673px) {
+    .main-content {
         grid-template-columns: repeat(1, 1fr);
     }
 }
